@@ -1,15 +1,14 @@
 
 def main():
-    # Récolter une première note
-    note1 = int(input("Entrer la première note"))
-    # Récolter la deuxième note
-    note2 = int(input("Entrer la deuxième note"))
-    # Récolter la troisièmre note
-    note3 = int(input("Entrer la troisième note"))
-    # Calculer la moyenne
-    result = (note1 + note2 + note3) / 3
-    # Afficher le resultat
-    print("La moyenne de l'élève est de  " + str(result))
+    # Récolter une valeur porte monnaie
+    wallet = 101
+    print("Votre porte monnaie est de " + str(wallet) + "€")
+    # Créer un produit qui aura pour valeur 50
+    product = 50
+    print("Le produit que vous voulez acheter est de " + str(product) + "€")
+    # Afficher la nouvelle valeur du porte monnaie, après son achat
+    result = (wallet - product)
+    print("Apès votre achat de " + str(product) + " Votre porte monnaie restant est de " + str(resultAdded and ended the calculation exercise for a product to buy) + "€")
 
 
 if __name__ == '__main__':
