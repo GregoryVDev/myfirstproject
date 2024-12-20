@@ -8,7 +8,7 @@ def main():
     print("Le produit que vous voulez acheter est de " + str(product) + "€")
     # Afficher la nouvelle valeur du porte monnaie, après son achat
     result = (wallet - product)
-    print("Apès votre achat de " + str(product) + " Votre porte monnaie restant est de " + str(resultAdded and ended the calculation exercise for a product to buy) + "€")
+    print("Apès votre achat de " + str(product) + " Votre porte monnaie restant est de " + str(result) + "€")
 
 
 if __name__ == '__main__':
