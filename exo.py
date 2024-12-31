@@ -1,11 +1,11 @@
 
 def main():
-    # Conditions et variables booléens
-    folder = False
-    if not(folder):
-        print("Envoyer une convocation au candidat pour audition")
+    # Conditions et opérateurs d'appartenance
+    expression = "Ce cours concerne l'apprentissage de Python"
+    if("Python" in expression):
+        print("C'est un cours sur Python")
     else:
-        print("Dossier non sélectionné")
+        print("Ce cours ne concerne pas Python")
 
 
 
