@@ -5,13 +5,12 @@ def main():
     woman_age = float(input("Veuillez saisir l'âge de votre partenaire:"))
 
 
-    if age <= 30:
-        if woman_age < age:
-            print("Vous avez moins de 30 ans et votre partenaire est moins agé que vous!")
-        else:
-            print("Vous avez moins de 30 ans mais votre partenaire est plus agé que vous!")
-    else:
-        print("Votre age est supérieur à 30")
+a, b, c = 5,8,0
+
+if(a<c and b<c):
+    print("true")
+else:
+    print("false")
 
 
 if __name__ == '__main__':
