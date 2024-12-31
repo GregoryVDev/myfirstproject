@@ -1,25 +1,17 @@
 
 def main():
-    # Récolter une valeur porte monnaie
-    wallet = 101
-    print("Votre porte monnaie est de " + str(wallet) + "€")
-    # Créer un produit qui aura pour valeur 50
-    product = 50
-    print("Le produit que vous voulez acheter est de " + str(product) + "€")
-    # Afficher la nouvelle valeur du porte monnaie, après son achat
-    result = (wallet - product)
-    print("Apès votre achat de " + str(product) + " Votre porte monnaie restant est de " + str(result) + "€")
-
-
-x,y = 13,10
-
-if x>y:
-    print("x est supérieur strictement à y")
-elif x==y:
-    print("x est égale à y")
-else:
-    print("x est inférieur strictement à y")
-
+    # Faire un input et le stocker dans la variable note
+    note = float(input("Veuillez saisir votre note de mathématiques"))
+    if note >= 16:
+        print("Très bien")
+    elif note >= 14:
+        print("Bien")
+    elif note >= 12:
+        print("Assez bien")
+    elif note >= 10:
+        print("Votre travail est moyen")
+    else:
+        print("Vous devez faire un effort")
 
 if __name__ == '__main__':
     main()
