@@ -11,7 +11,7 @@ def main():
     print("Apès votre achat de " + str(product) + " Votre porte monnaie restant est de " + str(result) + "€")
 
 
-note = 11
+note = 9
 if note >= 10:
     print("Admis")
 else:
