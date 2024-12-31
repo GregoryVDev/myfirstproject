@@ -1,17 +1,12 @@
 
 def main():
-
-    a,b = 3,1
-
-    if(not(a<b)):
-        a,b = b,a
-        print("Les valeurs de a et b seront inversées")
-        print("a= ", a)
-        print("b = ", b)
+    # Conditions et variables booléens
+    folder = False
+    if not(folder):
+        print("Envoyer une convocation au candidat pour audition")
     else:
-        print("Les valeurs de a et b restent les mêmes")
-        print("a = ", a)
-        print("b = ", b)
+        print("Dossier non sélectionné")
+
 
 
 if __name__ == '__main__':
