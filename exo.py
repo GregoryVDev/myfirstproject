@@ -11,11 +11,14 @@ def main():
     print("Apès votre achat de " + str(product) + " Votre porte monnaie restant est de " + str(result) + "€")
 
 
-note = 9
-if note >= 10:
-    print("Admis")
+x,y = 13,10
+
+if x>y:
+    print("x est supérieur strictement à y")
+elif x==y:
+    print("x est égale à y")
 else:
-    print("Redouble")
+    print("x est inférieur strictement à y")
 
 
 if __name__ == '__main__':
