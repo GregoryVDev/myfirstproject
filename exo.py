@@ -11,10 +11,12 @@ def main():
     print("Apès votre achat de " + str(product) + " Votre porte monnaie restant est de " + str(result) + "€")
 
 
-note = 12
+note = 11
+if note >= 10:
+    print("Admis")
+else:
+    print("Redouble")
 
-if note>10:
-    print("admis")
 
 if __name__ == '__main__':
     main()
