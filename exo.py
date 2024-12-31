@@ -1,12 +1,17 @@
 
 def main():
 
-    a, b, c = 5,8,0
+    a,b = 3,1
 
-    if(a<c and b<c):
-        print("true")
+    if(not(a<b)):
+        a,b = b,a
+        print("Les valeurs de a et b seront inversées")
+        print("a= ", a)
+        print("b = ", b)
     else:
-        print("false")
+        print("Les valeurs de a et b restent les mêmes")
+        print("a = ", a)
+        print("b = ", b)
 
 
 if __name__ == '__main__':
