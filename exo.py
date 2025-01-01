@@ -8,6 +8,12 @@ def main():
         print("Ce cours ne concerne pas Python")
 
 
+    if("Python" not in expression):
+        print("Ce cours ne concerne pas Python")
+    else:
+        print("Ce cours concerne Python (not in)")
+
+
 
 if __name__ == '__main__':
     main()
