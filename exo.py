@@ -1,12 +1,14 @@
 
 def main():
-    # La boucle for et la fonction range
-    expression = "Python est un langage de programmation"
-    for n in range(101):
-        if n%2 == 0:
-            print("Le nombre: ",n, " est un nombre pair")
-        else:
-            print("Le nombre: ",n, " est un nombre impair")
+    # Le mot clé break et continue
+    for i in range (10):
+        print("La valeur de i est: ", i)
+        print("Python")
+        if i==4:
+            break
+        print("Fin de l'iteration à cause de la valeur de i qui vaut: ",i)
+
+        print("Fin de la boucle")
 
 
 if __name__ == '__main__':
