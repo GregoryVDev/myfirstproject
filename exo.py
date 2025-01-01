@@ -1,10 +1,11 @@
 
 def main():
     # La boucle while
-    x = 0
-    while(x<=20):
-        print("La valeur de la variable x est: ", x)
-        x+= 1
+    number = int(input("Choisit quel nombre souhaites-tu afficher sa yable de multiplication"))
+    i = 0
+    while i <= 10:
+        print(i, "x", number, "=", i*number)
+        i+=1
 
 
 
