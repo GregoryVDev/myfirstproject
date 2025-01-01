@@ -1,12 +1,10 @@
 
 def main():
-    # La boucle while
-    number = int(input("Choisit quel nombre souhaites-tu afficher sa yable de multiplication"))
-    i = 0
-    while i <= 10:
-        print(i, "x", number, "=", i*number)
-        i+=1
-
+    # La boucle for et la fonction range
+    expression = "Python est un langage de programmation"
+    # Pour chaque caractère, on va les afficher
+    for c in expression:
+        print(c)
 
 
 if __name__ == '__main__':
