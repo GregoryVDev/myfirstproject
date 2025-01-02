@@ -1,13 +1,9 @@
 
 def main():
-    # Le mot clé break et continue
-    for i in range(7):
-        print("Début de la boucle numéro :", i)
-        print("Bienvenue dans la formation Python ! :")
-        if i < 4:
-            continue
-        print("La valeur de i est supérieur ou égale à:", i)
-    print("fin de la boucle")
+    # Les listes Python c'est quoi et comment la définir
+    my_list = [1,2,3,4,5,6, "Amine", "Mastafi", 12, "Clara"]
+    print(my_list)
+    print(type(my_list))
 
 
 if __name__ == '__main__':
