@@ -2,9 +2,9 @@
 def main():
     # Ajouter et mettre à jour les éléments d'une liste
     my_list = [1,2,"Amine","Martin",-5,False]
-    my_list.append(100)
-    my_list.append("Rabat")
-    print(my_list)
+
+    my_list[3] = "Assude"
+    print(my_list[3])
 
 
 if __name__ == '__main__':
