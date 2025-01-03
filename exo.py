@@ -1,10 +1,11 @@
 
 def main():
-    # Supprimer les éléments d'une liste
-    my_list = [1,2,"Amine","Martin",-5,False]
+    # Concaténer des listes
+    username = ["Clara", "Lina", "Lionel", "Amine"]
+    notes = [12,13.5,20]
 
-    my_list.remove("Amine")
-    print(my_list)
+    username_notes = username + notes
+    print(username_notes)
 
 
 if __name__ == '__main__':
