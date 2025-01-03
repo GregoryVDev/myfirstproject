@@ -1,11 +1,16 @@
 
 def main():
-    # Concaténer des listes
-    username = ["Clara", "Lina", "Lionel", "Amine"]
-    notes = [12,13.5,20]
+    # Parcourir une liste
+    username_notes = ["Clara","Lina","Lionel","Amine",12,20,15.5,19]
 
-    username_notes = username + notes
-    print(username_notes)
+    i = 0
+    while i < len(username_notes):
+        print(username_notes[i])
+        i+=1
+
+        #     Ou
+        #     for i in range(len(username_notes)):
+        #         print(username_notes[i])
 
 
 if __name__ == '__main__':
