@@ -6,7 +6,7 @@ def main():
     z = 67
     t = -32
 
-    print(abs(t))
+    print(float(x))
 
 
 if __name__ == '__main__':
