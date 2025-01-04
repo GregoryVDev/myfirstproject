@@ -1,10 +1,10 @@
 
 def main():
-    # La notion de compréhension de liste
-    username = ["AMine", "Claire", "VALERIe", "KaRIne"]
-    username = [u.upper() for u in username]
+    # Les méthodes split() et join()
+    capitales = "Paris Madrid Rabat Alger Lisbonne"
+    my_list = capitales.split(" ")
 
-    print(username)
+    print(my_list)
 
 
 
