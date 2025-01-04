@@ -1,16 +1,11 @@
 
 def main():
-    # Parcourir une liste
-    username_notes = ["Clara","Lina","Lionel","Amine",12,20,15.5,19]
+    # La notion de compréhension de liste
+    entiers = [-10, -3, -1, 0, 23, 56, 78]
+    carres_entiers_negatif = [i*i for i in entiers if i<0]
 
-    i = 0
-    while i < len(username_notes):
-        print(username_notes[i])
-        i+=1
+    print(carres_entiers_negatif)
 
-        #     Ou
-        #     for i in range(len(username_notes)):
-        #         print(username_notes[i])
 
 
 if __name__ == '__main__':
