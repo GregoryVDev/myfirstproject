@@ -1,9 +1,12 @@
 
 def main():
-    # Récupérer les éléments d'un tuple
-    # Créer un tuple avec un seul élément, toujours rajouter la virgule sinon ça devient un type int
-    tuple1 = (12,)
-    print(type(tuple1))
+    # Fonction prédéfinies en Python et accessibles directement
+    x = -34
+    y = 645.6
+    z = 67
+    t = -32
+
+    print(abs(t))
 
 
 if __name__ == '__main__':
