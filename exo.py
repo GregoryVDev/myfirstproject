@@ -7,7 +7,7 @@ def main():
     z = 67
     t = -32
 
-    print(max(x,y,z,t))
+    print(min(x,y,z,t))
 
 
 if __name__ == '__main__':
