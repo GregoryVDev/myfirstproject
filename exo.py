@@ -1,10 +1,10 @@
 
 def main():
     # La notion de compréhension de liste
-    entiers = [-10, -3, -1, 0, 23, 56, 78]
-    carres_entiers_negatif = [i*i for i in entiers if i<0]
+    username = ["AMine", "Claire", "VALERIe", "KaRIne"]
+    username = [u.lower() for u in username]
 
-    print(carres_entiers_negatif)
+    print(username)
 
 
 
