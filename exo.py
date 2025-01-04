@@ -1,13 +1,9 @@
 
 def main():
     # Fonction prédéfinies en Python et accessibles directement
-    x = -34
-    m = 12.0
-    y = 645.6
-    z = 67
-    t = -32
+    x = 45.87654
 
-    print(min(x,y,z,t))
+    print(round(x,2))
 
 
 if __name__ == '__main__':
