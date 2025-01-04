@@ -1,11 +1,10 @@
 
 def main():
     # Les méthodes split() et join()
-    capitales = "Paris Madrid Rabat Alger Lisbonne"
-    my_list = capitales.split(" ")
+    capitales = ["Madrid", "Paris", "Geneve", "Rabat", "Lisbonne"]
+    my_chain = "-".join(capitales)
 
-    print(my_list)
-
+    print(my_chain)
 
 
 if __name__ == '__main__':
