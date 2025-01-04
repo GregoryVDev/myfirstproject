@@ -2,7 +2,7 @@
 def main():
     # La notion de compréhension de liste
     username = ["AMine", "Claire", "VALERIe", "KaRIne"]
-    username = [u.lower() for u in username]
+    username = [u.upper() for u in username]
 
     print(username)
 
