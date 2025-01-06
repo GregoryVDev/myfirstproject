@@ -7,3 +7,4 @@ dic = {"prenom":"Amine","list":[1,2,3], "tp":(10,20,30,40), 1:"Python", "capital
 
 print(dic["list"][1])
 print(dic["tp"][3])
+print(dic["capitales"]["France"])
