@@ -1,10 +1,5 @@
+# Les dictionnaires
 
-def main():
-    # Fonction prédéfinies en Python et accessibles directement
-    x = 45.87654
+note = { "Lionel": 13.5, "Amine": 14, "Lina": 17, "Pierre": 20}
 
-    print(round(x,2))
-
-
-if __name__ == '__main__':
-    main()
+print(type(note))
