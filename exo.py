@@ -1,11 +1,14 @@
-# La boucle for et les dictionnaires
+# Les dictionnaires et les fonctions
+def occurence_character(chaine):
+    dic = {}
+    for c in chaine:
+        if c in dic:
+            dic[c] += 1
+        else:
+            dic[c] = 1
+    return dic
 
-notes = { "Lionel": 13.5, "Youssef": 14, "Karine": 17, "Pierre": 20, "Amine": 15}
+chaine = "aaazgezgeznjfezjfcjeznfezjf"
+occurence_character(chaine)
 
-for cle in notes:
-
-    print(cle)
-
-for value in notes.values():
-
-    print(value)
+print(occurence_character(chaine))
