@@ -4,3 +4,6 @@ notes = { "Lionel": 13.5, "Amine": 14, "Lina": 17, "Pierre": 20}
 
 s = len(notes)
 print(s)
+
+print("Amine" in notes)
+print("Karine" in notes)
