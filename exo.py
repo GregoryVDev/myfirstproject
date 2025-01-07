@@ -1,7 +1,7 @@
-# Fonctions utiles pour les dictionnaires
+# La boucle for et les dictionnaires
 
-notes = { "Lionel": 13.5, "Amine": 14, "Lina": 17, "Pierre": 20}
+notes = { "Lionel": 13.5, "Youssef": 14, "Karine": 17, "Pierre": 20, "Amine": 15}
 
-notes.clear()
+for cle in notes:
 
-print(notes)
+    print(cle)
