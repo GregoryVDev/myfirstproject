@@ -2,9 +2,6 @@
 
 notes = { "Lionel": 13.5, "Amine": 14, "Lina": 17, "Pierre": 20}
 
-note2 = notes.copy()
-
-note2["Lionel"] = 20
+notes.clear()
 
 print(notes)
-print(note2)
