@@ -2,8 +2,9 @@
 
 notes = { "Lionel": 13.5, "Amine": 14, "Lina": 17, "Pierre": 20}
 
-s = len(notes)
-print(s)
+note2 = notes.copy()
 
-print("Amine" in notes)
-print("Karine" in notes)
+note2["Lionel"] = 20
+
+print(notes)
+print(note2)
