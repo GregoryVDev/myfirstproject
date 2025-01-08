@@ -1,8 +1,5 @@
-# Les ensembles
+# Appartenance et parcours des éléments d’un ensemble
 
-participants = { "Amine", "Karine", "Christopher", "Amine", "Valerie", "Karine"}
+participants = {"Amine", "Lionel", "Karine", "Valérie", 17,19,"Christopher"}
 
-number = len(participants)
-
-print(number)
-print(participants)
+print("Lionel" in participants)
