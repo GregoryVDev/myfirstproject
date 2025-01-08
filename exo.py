@@ -4,6 +4,6 @@ participants = {"Amine", "Lionel", "Karine", "Valérie", 17,19,"Christopher"}
 
 womans = {"Karine", "Lina","Valérie","Sarah"}
 
-difference = participants - womans
+difference_symmetrical = participants ^ womans
 
-print(difference)
+print(difference_symmetrical)
