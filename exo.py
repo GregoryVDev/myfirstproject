@@ -1,7 +1,6 @@
-# L’union et l’affection simultanées des ensembles
+# Supprimer les éléments d'un ensemble
 ens1 = {1,2,3, ("a","b")}
-ens2 = {10,100}
 
-ens1 |= ens2
+ens1.discard(1)
 
 print(ens1)
