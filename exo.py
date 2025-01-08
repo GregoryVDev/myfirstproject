@@ -1,6 +1,7 @@
-# Supprimer les éléments d'un ensemble
+# Supprimer un élément aléatoire d’un ensemble
 ens1 = {1,2,3, ("a","b")}
 
-ens1.remove(1)
+k = ens1.pop()
 
+print(k)
 print(ens1)
