@@ -1,7 +1,5 @@
-# Supprimer un élément aléatoire d’un ensemble
-ens1 = {1,2,3, ("a","b")}
+notre_poeme = open("poeme.txt", "r")
 
-k = ens1.pop()
+lignes = notre_poeme.readlines()
 
-print(k)
-print(ens1)
+print(lignes)
