@@ -1,5 +1,7 @@
+# Lecture d'un fichier et la méthode readlines()
 notre_poeme = open("poeme.txt", "r")
 
 lignes = notre_poeme.readlines()
 
-print(lignes)
+for ligne in lignes:
+    print(ligne)
