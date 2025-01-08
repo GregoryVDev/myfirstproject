@@ -1,5 +1,9 @@
-# Appartenance et parcours des éléments d’un ensemble
+# Intersection des ensembles
 
 participants = {"Amine", "Lionel", "Karine", "Valérie", 17,19,"Christopher"}
 
-print("Lionel" in participants)
+womans = {"Karine", "Lina","Valérie","Sarah"}
+
+participants.intersection_update(womans)
+
+print(participants)
