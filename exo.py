@@ -1,9 +1,7 @@
-# Mettre à jour un ensemble
-participants = {"Amine", "Lionel", "Karine", "Valérie", 17,19,"Christopher"}
+# L’union et l’affection simultanées des ensembles
+ens1 = {1,2,3, ("a","b")}
+ens2 = {10,100}
 
-womans = {"Karine", "Lina","Valérie","Sarah"}
+ens1 |= ens2
 
-# Ajouter un élément
-participants.add("Dupond")
-
-print(participants)
+print(ens1)
