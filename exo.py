@@ -1,14 +1,8 @@
-# Les dictionnaires et les fonctions
-def occurence_character(chaine):
-    dic = {}
-    for c in chaine:
-        if c in dic:
-            dic[c] += 1
-        else:
-            dic[c] = 1
-    return dic
+# Les ensembles
 
-chaine = "aaazgezgeznjfezjfcjeznfezjf"
-occurence_character(chaine)
+participants = { "Amine", "Karine", "Christopher", "Amine", "Valerie", "Karine"}
 
-print(occurence_character(chaine))
+number = len(participants)
+
+print(number)
+print(participants)
