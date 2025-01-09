@@ -1,6 +1,5 @@
-# Lecture d'un fichier et la méthode read()
+# Méthode simple et élégante pour lire un fichier
 notre_poeme = open("poeme.txt", "r")
 
-lines = notre_poeme.read()
-
-print(lines)
+for line in notre_poeme:
+    print(line)
