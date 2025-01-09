@@ -1,8 +1,6 @@
-# Lecture d'un fichier et la méthode readline()
+# Lecture d'un fichier et la méthode read()
 notre_poeme = open("poeme.txt", "r")
 
-line = notre_poeme.readline()
+lines = notre_poeme.read()
 
-while line != "":
-    print(line)
-    line = notre_poeme.readline()
+print(lines)
