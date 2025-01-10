@@ -12,3 +12,6 @@ fichier.close()
 
 # Ouvrir de nouveau le fichier test_file (le fichier est vide car il a remplacé ce qu'on a écrit par un nouveau fichier vide
 fichier = open('test_file.txt', 'w', encoding="UTF-8")
+
+# Ecrire un message dans le fichier test_file.txt
+fichier.write("Salut, tout le contenu est perdu ! \n")
