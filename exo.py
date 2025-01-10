@@ -1,4 +1,4 @@
-# Ecriture dans un fichier
+# Ecriture dans un fichier une autre méthode
 
 # Créer un nouveau fichier dans le repertoire du dossier
 fichier = open('test_file.txt', 'w', encoding="UTF-8")
@@ -15,3 +15,12 @@ fichier = open('test_file.txt', 'w', encoding="UTF-8")
 
 # Ecrire un message dans le fichier test_file.txt
 fichier.write("Salut, tout le contenu est perdu ! \n")
+
+# Fermer le fichier
+fichier.close()
+
+# Ouvrir le fichier sans supprimer le contenu
+fichier = open("test_file.txt", "a", encoding="UTF-8")
+
+# Ecrire un nouveau message dans le fichier
+fichier.write("Voici le nouveau texte qu'on vient d'ajouter \n")
