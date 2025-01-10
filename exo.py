@@ -1,9 +1,4 @@
-# Ouverture et fermeture automatique d'un fichier
+# Ecriture dans un fichier
 
-# Ouvrir en même temps deux fichiers txt avec with open
-with open('poeme.txt', encoding="UTF-8") as notre_poeme, open('test.txt', 'r', encoding="UTF-8") as test:
-    # Permet de faire une boucle pour lire chaque ligne dans la variable notre_poeme
-    for line in notre_poeme:
-        print(line)
-        for t in test:
-            print(t)
+# Créer un nouveau fichier dans le repertoire du dossier
+fichier = open('test_file.txt', 'w', encoding="UTF-8")
