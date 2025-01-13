@@ -1,6 +1,9 @@
-# Le module random
-import random as r
+# Le module statistics
+import statistics as s
 
-# Afficher un nombre aléatoire entier entre 3 et 7
-a = r.randint(3,7)
-print(a)
+# Affiche le nombre qui est répété le plus de fois (le numéro 10)
+a = [5,10,15,20,40,100,10,10,5,4,100,10,5,10, 200]
+
+b = s.mode(a)
+print(b)
+
