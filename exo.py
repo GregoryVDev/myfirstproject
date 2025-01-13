@@ -1,6 +1,6 @@
 # Le module random
 import random as r
 
-# Afficher un nombre aléatoire entre 12 et 54
-a = r.uniform(12,54)
+# Afficher un nombre aléatoire entier entre 3 et 7
+a = r.randint(3,7)
 print(a)
