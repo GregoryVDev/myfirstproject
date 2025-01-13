@@ -6,9 +6,9 @@ def inverse(x):
 try:
     x = float(input("Donnez un nombre que vous souhaitez avoir son inverse:"))
     y = inverse(x)
-except Exception as e:
-    print("Ce que vous avez saisi n'admet pas d'inverse")
-    # Indiquer un message avec un type d'erreur qui correspond
-    print("Le type d'erreur est:", e.__class__)
+except ZeroDivisionError:
+    print("Impossible de calculer l'inverse de zéro, veuillez entrer un nombre différent de zéro")
+except ValueError:
+    print("La valeur entrée n'est pas un nombre")
 else:
     print(y)
