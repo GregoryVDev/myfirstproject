@@ -1,12 +1,8 @@
-# Le type time
+# Gérer les erreurs et les exceptions
 
-from datetime import time
+try:
+    number = int(input("Entrez un nombre:"))
 
-# Afficher le temps (heure, minutes, secondes
-instant = time(13,56,8)
-
-print(instant)
-
-# Extraire l'heure
-hour = instant.hour
-print(hour)
+    print("Le nombre est :", number)
+except:
+    print("Vous n'avez pas saisi un nombre")
