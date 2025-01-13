@@ -1,6 +1,12 @@
-# Le module datetime
+# Le type time
 
-from datetime import date
+from datetime import time
 
-today = date.today().strftime(("%d/%m/%Y"))
-print(today)
+# Afficher le temps (heure, minutes, secondes
+instant = time(13,56,8)
+
+print(instant)
+
+# Extraire l'heure
+hour = instant.hour
+print(hour)
