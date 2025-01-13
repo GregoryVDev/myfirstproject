@@ -1,10 +1,10 @@
-# Gérer les erreurs et les exceptions
+# Comment éviter que le programme se plante
+def inverse(x):
+    y = 1.0/x
+    return y
 
-while True:
-    try:
-        number = int(input("Entrez un nombre:"))
-
-        print("Le nombre est :", number)
-        break
-    except:
-        print("Vous n'avez pas saisi un nombre")
+try:
+    x = float(input("Donnez un nombre que vous souhaitez avoir son inverse:"))
+    print(inverse(x))
+except:
+    print("Ce que vous avez saisi n'admet pas d'inverse")
