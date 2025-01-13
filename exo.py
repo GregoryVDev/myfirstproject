@@ -1,9 +1,11 @@
-# Le module statistics
-import statistics as s
+# Le module datetime
 
-# Affiche le nombre qui est répété le plus de fois (le numéro 10)
-a = [5,10,15,20,40,100,10,10,5,4,100,10,5,10, 200]
+from datetime import date
 
-b = s.mode(a)
-print(b)
+# Afficher la date entière
+date = date(1995, 12, 10)
+print("Ma date de naissance est", date)
 
+# Extraire l'année de la date
+year = date.year
+print("L'année de naissance est: ", year)
