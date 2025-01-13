@@ -1,26 +1,6 @@
-# Ecriture dans un fichier une autre méthode
+# Le module random
+import random as r
 
-# Créer un nouveau fichier dans le repertoire du dossier
-fichier = open('test_file.txt', 'w', encoding="UTF-8")
-
-# Ecrire deux messages dans le fichier test_file.txt
-fichier.write("Salut mes camarades \n")
-fichier.write("Nous sommes en train d'apprendre Python tout doucement \n")
-
-# Fermer le fichier
-fichier.close()
-
-# Ouvrir de nouveau le fichier test_file (le fichier est vide car il a remplacé ce qu'on a écrit par un nouveau fichier vide
-fichier = open('test_file.txt', 'w', encoding="UTF-8")
-
-# Ecrire un message dans le fichier test_file.txt
-fichier.write("Salut, tout le contenu est perdu ! \n")
-
-# Fermer le fichier
-fichier.close()
-
-# Ouvrir le fichier sans supprimer le contenu
-fichier = open("test_file.txt", "a", encoding="UTF-8")
-
-# Ecrire un nouveau message dans le fichier
-fichier.write("Voici le nouveau texte qu'on vient d'ajouter \n")
+# Afficher un nombre aléatoire entre 0 et 1 (le 1 est exclu)
+a = r.random()
+print(a)
