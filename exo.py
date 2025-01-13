@@ -1,4 +1,4 @@
-# Comment préciser le type des erreurs
+# La clause finaly
 def inverse(x):
     y = 1.0/x
     return y
@@ -12,3 +12,5 @@ except ValueError:
     print("La valeur entrée n'est pas un nombre")
 else:
     print(y)
+finally:
+    print("Le contenu de ce bloc est toujours exécuté!")
