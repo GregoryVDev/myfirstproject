@@ -1,4 +1,4 @@
-# Class et constructeur
+# Class et constructeur exo
 class Account:
     def __init__(self, name = "Dupond", solde = 1000):
         self.name = name
