@@ -1,2 +1,0 @@
-# Définir une classe Python
-
