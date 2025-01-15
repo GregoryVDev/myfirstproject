@@ -1,13 +1,16 @@
 # L'encapsulation et les attributs privés
 class Person:
     def __init__(self,name,fonction):
-        self.person_name = name
+        # Déclarer un attribut privé avec "__"
+        self.__person_name = name
         self.fonction = fonction
+
+    def display(self):
+        return "Le nom est: {} et la fonction est: {}".format(self.__person_name, self.fonction)
+
 
 person1 = Person("Smith", "Développeur web")
 
-print("Nom:", person1.person_name)
-print("Fonction:", person1.fonction)
+person1.display()
 
-
-# Déclarer un attribut privé avec "__"
+print(person1.display())
