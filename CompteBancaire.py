@@ -20,3 +20,6 @@ compte1.afficher()
 
 compte1.depot(5000)
 compte1.afficher()
+
+compte1.retrait(2000)
+compte1.afficher()
