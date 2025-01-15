@@ -14,3 +14,6 @@ class Employe:
 
 employe1 = Employe("Smith", "Joe", 40, "joe@gmail.fr")
 print(employe1.employe_name, employe1.employe_firstname, "a pour âge", employe1.employe_age, "ans", "et son adresse email", employe1.employe_email)
+
+employe1.login()
+employe1.logout()
