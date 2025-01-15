@@ -6,7 +6,7 @@ class Employe:
     phone = ""
     email = ""
 
-    def lingin(self):
+    def login(self):
         print("J'ai besoin de me connecter")
 
     def logout(self):
@@ -25,3 +25,6 @@ employe2.age = 29
 
 print(employe1.name, employe1.firstname, "a pour âge ", employe1.age)
 print(employe2.name, employe2.firstname, "a pour âge ", employe2.age)
+
+employe1.login()
+employe1.logout()
