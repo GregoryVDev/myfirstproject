@@ -24,3 +24,4 @@ employe2.firstname = "Leon"
 employe2.age = 29
 
 print(employe1.name, employe1.firstname, "a pour âge ", employe1.age)
+print(employe2.name, employe2.firstname, "a pour âge ", employe2.age)
