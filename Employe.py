@@ -1,4 +1,4 @@
-# Instanciation des classes
+# Le constructeur
 class Employe:
     def __init__(self, name, firstname, age, email):
         self.employe_name = name
