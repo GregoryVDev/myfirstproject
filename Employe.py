@@ -15,4 +15,12 @@ class Employe:
 employe1 = Employe()
 employe2 = Employe()
 
-print(employe1.age)
+employe1.name = "Doe"
+employe1.firstname = "John"
+employe1.age = 40
+
+employe2.name = "Smith"
+employe2.firstname = "Leon"
+employe2.age = 29
+
+print(employe1.name, employe1.firstname, "a pour âge ", employe1.age)
