@@ -5,12 +5,8 @@ class Person:
         self.__person_name = name
         self.fonction = fonction
 
-    def display(self):
-        return "Le nom est: {} et la fonction est: {}".format(self.__person_name, self.fonction)
-
-
 person1 = Person("Smith", "Développeur web")
 
-person1.display()
+print("Nom:", person1._Person__person_name)
 
-print(person1.display())
+
