@@ -1,4 +1,4 @@
-# L'héritage multiniveaux
+# L'héritage multiple
 class Employe:
     def __init__(self, name, firstname, age, email):
         self.employe_name = name
