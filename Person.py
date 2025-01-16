@@ -4,9 +4,10 @@ class Person:
         self.person_name = name
         self.person_fonction = fonction
 
-    def __len__(self):
-        print("C'est une formation en Python")
-        return len(self.person_fonction)
+    # Permet de retourner si l'élément item est dans le person_name
+    def __contains__(self, item):
+        return item in self.person_name
 
 person1 = Person("Mastafi", "Professeur")
-print(len(person1))
+
+print("M" in person1)
