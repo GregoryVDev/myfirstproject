@@ -10,3 +10,6 @@ class Eagles(Birds):
         print("Les Aigles ont la capacité de voler plusieurs heures")
 
 class Ostriches(Birds):
+    def fly(self):
+        print("Les Autruches ne peuvent pas voler")
+
