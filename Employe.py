@@ -1,4 +1,4 @@
-# Le polymorphisme
+# Méthodes spéciales
 class Employe:
     def __init__(self, name, firstname, age, email):
         self.employe_name = name
