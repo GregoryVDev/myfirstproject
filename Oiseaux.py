@@ -13,3 +13,11 @@ class Ostriches(Birds):
     def fly(self):
         print("Les Autruches ne peuvent pas voler")
 
+
+bird1 = Birds()
+eagle1 = Eagles()
+ostrich1 = Ostriches()
+
+bird1.fly()
+eagle1.fly()
+ostrich1.fly()
