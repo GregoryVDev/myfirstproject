@@ -1,4 +1,4 @@
-# Le constructeur
+# L'héritage simple
 class Employe:
     def __init__(self, name, firstname, age, email):
         self.employe_name = name
@@ -12,8 +12,12 @@ class Employe:
     def logout(self):
         print("J'ai besoin de me déconnecter")
 
-employe1 = Employe("Smith", "Joe", 40, "joe@gmail.fr")
-print(employe1.employe_name, employe1.employe_firstname, "a pour âge", employe1.employe_age, "ans", "et son adresse email", employe1.employe_email)
 
-employe1.login()
-employe1.logout()
+class Human_resources(Employe):
+    fonction = "Les agents de ressources humaines gèrent le personnel de l'entreprise"
+
+
+agent1 = Human_resources("Eric", "Frederic", 35, "eric@gmail.com")
+print(agent1.employe_name, agent1.employe_firstname, "a pour âge:", agent1.employe_age, "ans et a pour mail:", agent1.employe_email)
+
+print("Fonction:", agent1.fonction)
