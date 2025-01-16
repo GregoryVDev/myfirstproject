@@ -6,7 +6,7 @@ class Person:
 
     def __len__(self):
         print("C'est une formation en Python")
-        return len(self.person_name)
+        return len(self.person_fonction)
 
 person1 = Person("Mastafi", "Professeur")
 print(len(person1))
