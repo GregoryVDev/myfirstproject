@@ -14,3 +14,6 @@ class Person:
 person1 = Person("Smith", "Développeur web")
 
 print("Nom:", person1.getName())
+
+person1.setName("Dupond")
+print("Nom:", person1.getName())
