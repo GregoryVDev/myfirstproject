@@ -1,3 +1,4 @@
+# La méthode spéciale __add__
 class Person:
     def __init__(self, name, fonction):
         self.person_name = name
