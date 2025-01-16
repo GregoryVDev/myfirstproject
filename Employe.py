@@ -1,4 +1,4 @@
-# Surcharge des méthodes classes
+# Le polymorphisme
 class Employe:
     def __init__(self, name, firstname, age, email):
         self.employe_name = name
