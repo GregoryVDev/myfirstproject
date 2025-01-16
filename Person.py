@@ -1,4 +1,4 @@
-# La méthode spéciale __len__
+# La méthode spéciale __contains__
 class Person:
     def __init__(self, name, fonction):
         self.person_name = name

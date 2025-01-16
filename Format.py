@@ -1,9 +1,4 @@
-# Méthodes spéciales __add__
-number = 10
-a = number + 100
-print(a)
+# Méthodes spéciales __contains__
+list = [3, "DDFFF", 56, 1, 0, "Mastafi"]
 
-# Ou
-
-b = number.__add__(100)
-print(b)
+print(40 in list)
