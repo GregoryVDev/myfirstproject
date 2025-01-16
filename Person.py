@@ -10,4 +10,4 @@ class Person:
 
 person1 = Person("Mastafi", "Professeur")
 
-print("M" in person1)
+print("r" in person1)
