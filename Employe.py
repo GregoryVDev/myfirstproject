@@ -1,4 +1,4 @@
-# L'héritage simple
+# L'héritage multiniveaux
 class Employe:
     def __init__(self, name, firstname, age, email):
         self.employe_name = name
@@ -17,7 +17,13 @@ class Human_resources(Employe):
     fonction = "Les agents de ressources humaines gèrent le personnel de l'entreprise"
 
 
-agent1 = Human_resources("Eric", "Frederic", 35, "eric@gmail.com")
-print(agent1.employe_name, agent1.employe_firstname, "a pour âge:", agent1.employe_age, "ans et a pour mail:", agent1.employe_email)
+class Responsables(Human_resources):
+    task = "Dirige une équipe"
+    prime_supp = True
 
-print("Fonction:", agent1.fonction)
+resp1 = Responsables("Smith", "Jonathan", 40, "Smith@yahoo.fr")
+print("Tâche:", resp1.task)
+print("Prime supplémentaire:", resp1.prime_supp)
+print("Fonction:", resp1.fonction)
+
+print(resp1.employe_name, resp1.employe_firstname, "a pour âge:", resp1.employe_age, "ans et a pour mail:", resp1.employe_email)
