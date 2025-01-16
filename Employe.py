@@ -1,4 +1,4 @@
-# L'héritage multiple
+# Surcharge des méthodes classes
 class Employe:
     def __init__(self, name, firstname, age, email):
         self.employe_name = name
@@ -12,18 +12,26 @@ class Employe:
     def logout(self):
         print("J'ai besoin de me déconnecter")
 
+    def conge(self):
+        print("Entant qu'employé, j'ai droit à un congé annuel")
+
 
 class Human_resources(Employe):
     fonction = "Les agents de ressources humaines gèrent le personnel de l'entreprise"
 
 
-class Responsables(Human_resources):
-    task = "Dirige une équipe"
-    prime_supp = True
+class Human_resources(Employe):
+    def __init__(self, name, firstname, age, email, fonction):
+        Employe.__init__(self, name, firstname, age, email)
+        self.employe_fonction = fonction
 
-resp1 = Responsables("Smith", "Jonathan", 40, "Smith@yahoo.fr")
-print("Tâche:", resp1.task)
-print("Prime supplémentaire:", resp1.prime_supp)
-print("Fonction:", resp1.fonction)
+    def conge(self):
+        Employe.conge(self)
+        print("Entant que agent de ressources humaines, j'ai droit à un séjour payant")
 
-print(resp1.employe_name, resp1.employe_firstname, "a pour âge:", resp1.employe_age, "ans et a pour mail:", resp1.employe_email)
+
+agent1 = Human_resources("Mastafi", "Mohammed", 40, "mastafi@yahoo.fr", "Responsable")
+
+agent1.conge()
+
+print(agent1.employe_name, agent1.employe_firstname, "a pour âge:", agent1.employe_age, "ans et pour mail:", agent1.employe_email, "et pour fonction:", agent1.employe_fonction)

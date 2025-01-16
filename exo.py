@@ -1,4 +1,4 @@
-# L'héritage multiple
+# Surcharge des méthodes classes
 class Mother:
     mother_name = ""
     def mother(self):
